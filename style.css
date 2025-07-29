@@ -1,0 +1,66 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdf6e3;
+  color: #002B36;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #FAF9F6;
+  border-bottom: 2px solid #FFD166;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #003049;
+}
+.container {
+  padding: 20px;
+}
+section {
+  margin-bottom: 30px;
+}
+input, textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-family: 'Georgia', serif;
+}
+.score-card {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fffef6;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.results {
+  text-align: center;
+}
+button {
+  background-color: #002B36;
+  color: #FFD166;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #003049;
+}
+footer {
+  background-color: #EEEDE7;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #FFD166;
+}
